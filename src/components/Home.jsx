@@ -5,7 +5,7 @@ const Home = () => {
     <section id="home" className="home">
       <img src="profile.jpg" alt="Profile" />
       <h1>I'M IDOWU ADENIYI</h1>
-      <h1>WEB DEVELOPER</h1>
+      <h2>WEB DEVELOPER</h2>
       <p>Full Stack Developer | MERN |</p>
       <p>
         Highly motivated and creative Web Developer with a strong foundation in
