@@ -24,7 +24,7 @@ const About = () => {
             <span>Freelance:</span> Available
           </p>
           <p>
-            <span>Address:</span> 254 John Garland Blvd, ON,Canada.
+            <span>Address:</span> Toronto, ON M9V1N8.
           </p>
           <p>
             <span>Phone:</span> (416)402-0633
