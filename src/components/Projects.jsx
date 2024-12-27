@@ -25,7 +25,12 @@ const Projects = () => {
               alt={project.name}
             />
             <h3>{project.name}</h3> {/* i use 'name' instead of 'title' */}
-            <p>Languages Used: {project.languages.join(", ")}</p>
+            <p>
+              <strong>Description:</strong> {project.description}
+            </p>
+            <p>
+              <strong>Languages Used:</strong> {project.languages.join(", ")}
+            </p>
             {/* Ensure URLs are treated as absolute URLs */}
             <a
               href={
