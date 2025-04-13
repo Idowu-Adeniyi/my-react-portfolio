@@ -39,8 +39,8 @@ const Contact = () => {
             <p>
               {/* Download CV Button */}
               <a
-                href="resume.pdf"
-                download="resume.pdf"
+                href="IdowuWebdevResume.pdf"
+                download="IdowuWebdevResume.pdf"
                 className="download-btn"
               >
                 Download CV

@@ -17,9 +17,9 @@ const About = () => {
           <p>
             <span>Last Name:</span> Adeniyi
           </p>
-          <p>
+          {/* <p>
             <span>Nationality:</span> Nigerian
-          </p>
+          </p> */}
           <p>
             <span>Freelance:</span> Available
           </p>
@@ -95,6 +95,25 @@ const About = () => {
               These assignments helped solidify understanding of both front-end
               and back-end technologies, including CRUD operations and
               server-side scripting.
+            </p>
+          </div>
+          <div className="experience-item">
+            <h4>
+              <span>01/2025 - 03/2025</span> Capstone Project - Work Hour
+              Tracking Application
+            </h4>
+            <p>
+              Developed a full-stack work hour tracking system where employees
+              can clock in/out, and admin can manage shifts and employee data.
+              <p>
+                <h3>Key Features & Implementation:</h3>
+              </p>
+              <ul>
+                <li>Authentication & Role Management</li>
+                <li>Frontend-Backend Integration</li>
+                <li>Database & API Development</li>
+                <li>Email Notification System</li>
+              </ul>
             </p>
           </div>
         </div>
