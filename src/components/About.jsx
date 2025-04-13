@@ -100,7 +100,7 @@ const About = () => {
           <div className="experience-item">
             <h4>
               <span>01/2025 - 03/2025</span> Capstone Project - Work Hour
-              Tracking Application
+              Tracking Application. MERN Stack
             </h4>
             <p>
               Developed a full-stack work hour tracking system where employees
@@ -108,7 +108,7 @@ const About = () => {
               <p>
                 <h4>Key Features & Implementation:</h4>
               </p>
-              <ol>
+              <ol class="relevant-proj">
                 <li>Authentication & Role Management</li>
                 <li>Frontend-Backend Integration</li>
                 <li>Database & API Development</li>

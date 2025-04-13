@@ -384,6 +384,10 @@ ul {
   overflow: hidden;
 }
 
+.relevant-proj {
+  list-style-type: disc;
+}
+
 #ulSkills {
   display: flex;
   flex-wrap: wrap;
