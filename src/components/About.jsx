@@ -106,14 +106,14 @@ const About = () => {
               Developed a full-stack work hour tracking system where employees
               can clock in/out, and admin can manage shifts and employee data.
               <p>
-                <h3>Key Features & Implementation:</h3>
+                <h4>Key Features & Implementation:</h4>
               </p>
-              <ul>
+              <ol>
                 <li>Authentication & Role Management</li>
                 <li>Frontend-Backend Integration</li>
                 <li>Database & API Development</li>
                 <li>Email Notification System</li>
-              </ul>
+              </ol>
             </p>
           </div>
         </div>
