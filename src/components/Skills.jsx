@@ -18,9 +18,7 @@ const Skills = () => {
       <ul id="ulSkills">
         {skills.map((skill, index) => (
           <li key={index}>
-            <span>
-              {skill.name} - {skill.percentage}%
-            </span>
+            <span>{skill.name}</span>
           </li>
         ))}
       </ul>
