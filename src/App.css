@@ -600,6 +600,7 @@ section .about {
 #aboutText {
   align-content: center;
   position: absolute;
+  align-items: flex-start;
 }
 
 section {
