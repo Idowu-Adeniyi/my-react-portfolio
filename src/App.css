@@ -593,7 +593,7 @@ ul {
   margin-left: -15px;
 }
 
-.about #aboutText {
+section .about #aboutText {
   display: flex;
   align-content: center;
   position: absolute;
