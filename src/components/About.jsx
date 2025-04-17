@@ -108,12 +108,12 @@ const About = () => {
               <p>
                 <h4>Key Features & Implementation:</h4>
               </p>
-              <ol class="relevant-proj">
+              <ul class="relevant-proj">
                 <li>Authentication & Role Management</li>
                 <li>Frontend-Backend Integration</li>
                 <li>Database & API Development</li>
                 <li>Email Notification System</li>
-              </ol>
+              </ul>
             </p>
           </div>
         </div>
