@@ -44,8 +44,8 @@ const Contact = () => {
           </p>
           <p>
             Mail me:{" "}
-            <a href="mailto:adeniyi.idowu50@gmail.com">
-              <FaEnvelope /> adeniyi.idowu50@gmail.com
+            <a href="mailto:adeniyi.idowu500@gmail.com">
+              <FaEnvelope /> adeniyi.idowu500@gmail.com
             </a>
           </p>
           <p>
