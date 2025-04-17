@@ -593,16 +593,13 @@ ul {
   margin-left: -15px;
 }
 
-section .about {
-  display: flex;
-}
-
 #aboutText {
+  align-content: center;
   position: absolute;
-  align-items: flex-start;
 }
 
 section {
+  display: flex;
   position: relative;
 }
 
