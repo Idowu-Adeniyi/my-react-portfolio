@@ -597,7 +597,7 @@ ul {
   display: flex;
   align-content: center;
   position: absolute;
-  margin-bottom: 3000px;
+  margin-bottom: 6em;
 }
 
 section {
