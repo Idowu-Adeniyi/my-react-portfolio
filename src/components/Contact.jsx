@@ -21,11 +21,16 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      await axios.post("/api/contact", formData);
+      // 👇 Use your actual backend URL here (from Render or other service)
+      await axios.post(
+        "https://express-portfolio-admin.onrender.com",
+        formData
+      );
+
       setStatusMessage("Message sent successfully!");
-      setFormData({ name: "", email: "", message: "" }); // Clear form
+      setFormData({ name: "", email: "", message: "" });
     } catch (error) {
-      console.error(error);
+      console.error("Error sending message:", error);
       setStatusMessage("Failed to send message. Please try again.");
     }
   };
@@ -34,14 +39,11 @@ const Contact = () => {
     <section id="contact" className="contact">
       <h2 id="contactMe">Contact Me</h2>
 
-      {/* Contact Container with Form and Details */}
       <div className="contact-container">
-        {/* Contact Details Section */}
         <div className="contact-details">
-          <p className="intro-text">
-            <h3 id="getInTouch">GET IN TOUCH!</h3>
-            <span id="getInTouchText">Feel free to get in touch with me.</span>
-          </p>
+          <h3 id="getInTouch">GET IN TOUCH!</h3>
+          <p id="getInTouchText">Feel free to get in touch with me.</p>
+
           <p>
             Mail me:{" "}
             <a href="mailto:adeniyi.idowu500@gmail.com">
@@ -75,7 +77,6 @@ const Contact = () => {
           </p>
         </div>
 
-        {/* Contact Form Section */}
         <form onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
           <input
