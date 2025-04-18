@@ -20,7 +20,10 @@ const Projects = () => {
       <div className="gallery">
         {projects.map((project, index) => (
           <div className="project" key={index}>
-            <img src={project.image} alt={project.name} />
+            <img
+              src={`https://express-portfolio-admin.onrender.com/${project.image}`}
+              alt={project.name}
+            />
             <h3>{project.name}</h3> {/* i use 'name' instead of 'title' */}
             <p>
               <strong>Description:</strong> {project.description}
