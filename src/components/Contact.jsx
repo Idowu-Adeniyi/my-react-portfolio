@@ -23,7 +23,7 @@ const Contact = () => {
     try {
       // 👇 Use your actual backend URL here (from Render or other service)
       await axios.post(
-        "https://express-portfolio-admin.onrender.com",
+        "https://express-portfolio-admin.onrender.com/contact",
         formData
       );
 
