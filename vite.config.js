@@ -12,9 +12,4 @@ export default defineConfig({
     host: "0.0.0.0",
     port: 3000,
   },
-  build: {
-    minify: "terser", // or 'esbuild'
-    target: "esnext",
-    sourcemap: false, // Disable source maps for production
-  },
 });
